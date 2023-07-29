@@ -1,0 +1,179 @@
+baseURL: https://mataralhawiti.github.io/datumops/
+relativeURLs : true
+canonifyURLs : true
+languageCode: en-us
+title: DatumOps
+
+module:
+  # uncomment line below for local development of module
+  # workspace: hugo.work
+  imports:
+    path: github.com/StefMa/hugo-fresh
+
+
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
+# Disables warnings
+disableKinds:
+- taxonomy
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
+  # preloader: false
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/datumops.svg
+    link: /
+    # Default width/height. Uncomment if you need to change
+    width: 180
+    height: 30
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    # title: Brighten your data
+    title: Create Insightful Datums
+    # Hero subtitle (optional)
+    # subtitle: We help you design, build and deploy a modern data stack. Our team has unmatched experience designing, building, and running production data workloads
+    subtitle: Together - we design, build, deploy a modern data stack
+    # Button text
+    buttontext: Contact us
+    # Where the main hero button links to
+    # buttonlink: "#"
+    buttonlink: "#section5"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/*.svg)
+    # urls are optional
+    # clientlogos:
+    # - logo: stcpay
+    #   url: https://google.com
+    # - logo: mcdonald
+    #   url: https://stefma.github.io/hugo-fresh/
+    # - logo: apple
+    #   url: https://github.com/StefMa/hugo-fresh
+    # - logo: snapchat
+    #   url: https://hugo-fresh.vercel.app/
+    # - logo: spotify
+    #   url: https://bulma.io/
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Services
+    url: "#section1"
+  # - title: Our Team
+  #   url: "#section2"
+  # - title: Pricing
+  #   url: /getstarted
+  - title: Book a call
+    url: "https://calendly.com/matar86/30min"
+    button: true
+  section1:
+    title: Our services
+    # subtitle: with great responsibility
+    tiles:
+    - title: Cloud Data Platform
+      icon: data-cloud
+      text: Unleash the power of the public clouds by leveraging data serverless solutions to build your modern data infrastructure
+      url: /
+      buttonText: Free trial
+    - title: Real-Time Data Processing
+      icon: real-time-stream
+      text: Empower your business and unlock new potentials by turning your data stream into valuable insights in real time
+      url: /
+      buttonText: Get started
+    - title: Data Lake
+      icon: data-lake
+      text: Store all your business's structured, semistructured and unstructured data in a centralized, cost-effective, scalable storage. Run variety of workloads from ad-hoc queries to big data analytics
+      url: /
+      buttonText: Get started
+    - title: Event Streaming
+      icon: kafka
+      text: Adopt Event-driven architecture to seamlessly integrate and scale your applications. Easily and effortlessly deploy and run your Apache Kafka platform
+      url: /
+      buttonText: Get started
+    - title: Data on Kubernetes
+      icon: k8b
+      text: Take advantage of Kubernetes and its unique ecosystem to run and scale your data workloads. Reduce the complexity and effort to explore, build, test and deploy more complex data use-cases
+      url: /
+      buttonText: Get started
+    - title: Data Warehousing
+      icon: dw-11
+      text: Integrate data from multiple heterogeneous sources to build a consolidated data store to support all your enterprise analytical reporting, dashboards and decision making
+      url: /
+      buttonText: Get started
+    - title: Relational Databases
+      icon: db
+      text:  Design, implement and deploy your relational database from logical to physical
+      url: /
+      buttonText: Get started
+    - title: Data Visualization
+      icon: viz
+      text: Bring your data to life and convey your business insights in meaningful ways. Tell a story about your data in breathtaking colorful interactive dashboards
+      url: /
+      buttonText: Get started
+  # section2:
+  #   title: Our team
+  #   # subtitle: And we know it
+  #   features:
+  #   - title: Matar Alhawiti
+  #     text: Seeking opportunities to work on cloud-based and data-driven products that will utilize my technical and analytical skills, allowing me to produce and deliver robust and creative solutions.
+  #     # Icon (from /images/illustrations/icons/___.svg)
+  #     icon: matar
+  #     subtitle: mataralhawiti
+  #   - title: Mohsen Almasood
+  #     text: Seeking opportunities to work on cloud-based and data-driven products that will utilize my technical and analytical skills, allowing me to produce and deliver robust and creative solutions.
+  #     icon: matar1
+  #     subtitle: mataralhawiti
+  #   - title: Moath Alhabib
+  #     text: Seeking opportunities to work on cloud-based and data-driven products that will utilize my technical and analytical skills, allowing me to produce and deliver robust and creative solutions.
+  #     icon: matar2
+  #     subtitle: mataralhawiti
+  # section4:
+  #   title: Our Clients love us!
+  #   # subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+  #   clients:
+  #   - name: Elon Musk
+  #     quote: Spend, save and manage your finances all in one place with a safer, more secure way to pay.
+  #     job: CEO, DatumOps
+  #     img: 1
+  #   - name: John Bradley
+  #     quote: Digital detox cabins just an hour or so from city life. Beautifully located in the beautiful British countryside to escape the everyday grind. 
+  #     job: Financial Analyst
+  #     img: 2
+  #   - name: Gary Blackman
+  #     quote: The right people to take your data to a new level.
+  #     job: HR Manager
+  #     img: 3
+  section5:
+    title: Drop us a line or two
+    subtitle: We'd love to hear from you
+    buttonText: Send Message
+    action: https://formspree.io/f/xpzgwkjw
+    method: POST
+  footer:
+    # Logo (from /images/logos/___)
+    logo: datumops-white.svg
+    # Social Media Title
+    socialmediatitle: Follow Us
+    # Social media links (GitHub, Twitter, etc.). All are optional.
+    socialmedia:
+    - link: https://github.com/datumops
+      # Icons are from Font Awesome
+      icon: github
+    - link: https://twitter.com/datumops
+      icon: twitter
+    quicklinks:
+      column1:
+        title: ""
+      column2:
+        title: ""
+      column3:
+        title: ""

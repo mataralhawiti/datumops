@@ -1,0 +1,59 @@
+{{- $section2 := .Site.Params.section2 }}
+{{- $title := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $features := index $section2 "features" }}
+<section class="section is-medium" id="section2">
+  <div class="container">
+    <div class="title-wrapper has-text-centered">
+      <h2 class="title is-2">{{ $title }}</h2>
+      <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+      <div class="divider is-centered"></div>
+    </div>
+
+    <div class="content-wrapper">
+      <div class="columns">
+        {{- range $features }}
+        <div class="column is-one-third">
+          <!-- <article class="media icon-box">
+            <div class="media-content mt-50">
+              <div class="content">
+                <p>
+                  <span class="icon-box-title">{{ .title }}</span>
+
+                  <span class="icon-box-text">{{ .text | markdownify }}</span>
+                </p>
+              </div>
+            </div>
+          </article> -->
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-2by3">
+                <img src="{{ printf "/images/illustrations/icons/%s.jpg" .icon | relURL }}">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-48x48">
+                    <img src="/images/illustrations/icons/LI-In-Bug.png" alt="Placeholder image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <p class="title is-4">{{ .title }}</p>
+                  <p class="subtitle is-6">@johnsmith</p>
+                </div>
+              </div>
+          
+              <div class="content">
+                {{ .text }}
+                <!-- <br>
+                <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>

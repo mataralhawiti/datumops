@@ -1,0 +1,4 @@
+#
+*.Identifier
+public
+.hugo_build.lock

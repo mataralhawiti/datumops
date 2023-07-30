@@ -126,8 +126,8 @@ params:
     - icon: k8-logo
     - icon: spark
     - icon: hadoop
-    - icon: hive
     - icon: kafka-1
+    - icon: hive
     - icon: flink
     - icon: airflow
     - icon: iceberg
@@ -143,9 +143,9 @@ params:
     - icon: orc-1
     - icon: Grafana_logo
     - icon: empty
+    - icon: empty-blue
     - icon: empty
-    - icon: empty
-    - icon: empty
+    - icon: empty-blue
     - icon: empty
 
   # section4:

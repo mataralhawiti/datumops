@@ -135,8 +135,19 @@ params:
     - icon: nifi
     - icon: strimzi-stacked-color
     - icon: helm-horizontal-color
-    # - icon: zookeeper
     - icon: postgresql
+    - icon: ms-sqlserver
+    - icon: Cassandra
+    - icon: Git-Logo-2Color
+    - icon: parquet
+    - icon: orc-1
+    - icon: Grafana_logo
+    - icon: empty
+    - icon: empty
+    - icon: empty
+    - icon: empty
+    - icon: empty
+
   # section4:
   #   title: Our Clients love us!
   #   # subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry

@@ -119,23 +119,24 @@ params:
       text: Bring your data to life and convey your business insights in meaningful ways. Tell a story about your data in breathtaking colorful interactive dashboards
       url: /
       buttonText: Get started
-  # section2:
-  #   title: Our team
-  #   # subtitle: And we know it
-  #   features:
-  #   - title: Matar Alhawiti
-  #     text: Seeking opportunities to work on cloud-based and data-driven products that will utilize my technical and analytical skills, allowing me to produce and deliver robust and creative solutions.
-  #     # Icon (from /images/illustrations/icons/___.svg)
-  #     icon: matar
-  #     subtitle: mataralhawiti
-  #   - title: Mohsen Almasood
-  #     text: Seeking opportunities to work on cloud-based and data-driven products that will utilize my technical and analytical skills, allowing me to produce and deliver robust and creative solutions.
-  #     icon: matar1
-  #     subtitle: mataralhawiti
-  #   - title: Moath Alhabib
-  #     text: Seeking opportunities to work on cloud-based and data-driven products that will utilize my technical and analytical skills, allowing me to produce and deliver robust and creative solutions.
-  #     icon: matar2
-  #     subtitle: mataralhawiti
+  section2:
+    title: DatumOps team
+    subtitle: has unmatched experience running production data workloads utilizing best frameworks
+    features:
+    - icon: k8-logo
+    - icon: spark
+    - icon: hadoop
+    - icon: hive
+    - icon: kafka-1
+    - icon: flink
+    - icon: airflow
+    - icon: iceberg
+    - icon: impala
+    - icon: nifi
+    - icon: strimzi-stacked-color
+    - icon: helm-horizontal-color
+    # - icon: zookeeper
+    - icon: postgresql
   # section4:
   #   title: Our Clients love us!
   #   # subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry

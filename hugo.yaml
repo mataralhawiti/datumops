@@ -68,8 +68,8 @@ params:
   navbar:
   - title: Services
     url: "#section1"
-  # - title: Our Team
-  #   url: "#section2"
+  - title: Our Team
+    url: "#section2"
   # - title: Pricing
   #   url: /getstarted
   - title: Book a call

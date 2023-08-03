@@ -128,7 +128,7 @@ params:
     - icon: hadoop
     - icon: kafka-1
     - icon: hive
-    - icon: flink
+    - icon: flink-logo
     - icon: airflow
     - icon: iceberg
     - icon: impala
@@ -141,7 +141,7 @@ params:
     - icon: Git-Logo-2Color
     - icon: parquet
     - icon: orc-1
-    - icon: Grafana_logo
+    - icon: Grafana_logo1
     - icon: empty
     - icon: empty-blue
     - icon: empty

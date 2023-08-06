@@ -142,12 +142,11 @@ params:
     - icon: parquet
     - icon: orc-1
     - icon: Grafana_logo1
-    - icon: empty
-    - icon: empty-blue
-    - icon: empty
-    - icon: empty-blue
-    - icon: empty
-
+    - icon: superset-logo
+    - icon: logo-presto-color
+    - icon: cloud-logo
+    - icon: azure_logo
+    - icon: oc-logo
   # section4:
   #   title: Our Clients love us!
   #   # subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry

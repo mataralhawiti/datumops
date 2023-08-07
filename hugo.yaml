@@ -86,22 +86,26 @@ params:
       buttonText: Free trial
     - title: Real-Time Data Processing
       icon: real-time-stream
-      text: Empower your business and unlock new potentials by turning your data stream into valuable insights in real time
+      # text: Empower your business and unlock new potentials by turning your data stream into valuable insights in real time
+      text: Turn your data stream into valuable insights in real time to empower your business and unlock new potentials
       url: /
       buttonText: Get started
     - title: Data Lake
       icon: data-lake
-      text: Store all your business's structured, semistructured and unstructured data in a centralized, cost-effective, scalable storage. Run variety of workloads from ad-hoc queries to big data analytics
+      # text: Store all your business's structured, semistructured and unstructured data in a centralized, cost-effective, scalable storage. Run variety of workloads from ad-hoc queries to big data analytics
+      text: With a centralized, cost-effective, and scalable storage solution, you can store all of your business's data and run a variety of workloads, from ad-hoc queries to big data analytics
       url: /
       buttonText: Get started
     - title: Event Streaming
       icon: kafka
-      text: Adopt Event-driven architecture to seamlessly integrate and scale your applications. Easily and effortlessly deploy and run your Apache Kafka platform
+      # text: Adopt Event-driven architecture to seamlessly integrate and scale your applications. Easily and effortlessly deploy and run your Apache Kafka platform
+      text: Adopt Event-driven architecture to seamlessly integrate and scale your applications. Apache Kafka is a great platform for event-driven architecture, and it's easy to deploy and run
       url: /
       buttonText: Get started
     - title: Data on Kubernetes
       icon: k8b
-      text: Take advantage of Kubernetes and its unique ecosystem to run and scale your data workloads. Reduce the complexity and effort to explore, build, test and deploy more complex data use-cases
+      # text: Take advantage of Kubernetes and its unique ecosystem to run and scale your data workloads. Reduce the complexity and effort to explore, build, test and deploy more complex data use-cases
+      text: Kubernetes is a powerful tool that can help you run and scale your data workloads. With Kubernetes, you can reduce the complexity and effort of exploring, building, testing, and deploying more complex data use-cases
       url: /
       buttonText: Get started
     - title: Data Warehousing
@@ -111,7 +115,8 @@ params:
       buttonText: Get started
     - title: Relational Databases
       icon: db
-      text:  Design, implement and deploy your relational database from logical to physical
+      # text:  Design, implement and deploy your relational database from logical to physical
+      text: Design, implement, and deploy your relational database, starting with the logical model and ending with the physical model
       url: /
       buttonText: Get started
     - title: Data Visualization

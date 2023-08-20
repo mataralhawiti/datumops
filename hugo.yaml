@@ -130,28 +130,32 @@ params:
     features:
     - icon: k8-logo
     - icon: spark
-    - icon: hadoop
     - icon: kafka-1
-    - icon: hive
-    - icon: flink-logo
     - icon: airflow
-    - icon: iceberg
-    - icon: impala
     - icon: nifi
+    - icon: hive
     - icon: strimzi-stacked-color
-    - icon: helm-horizontal-color
+    - icon: flink-logo
+    - icon: hadoop
+    - icon: Cassandra
     - icon: postgresql
     - icon: ms-sqlserver
-    - icon: Cassandra
-    - icon: Git-Logo-2Color
-    - icon: parquet
-    - icon: orc-1
-    - icon: Grafana_logo1
+    - icon: helm-horizontal-color
     - icon: superset-logo
     - icon: logo-presto-color
     - icon: cloud-logo
     - icon: azure_logo
     - icon: oc-logo
+    - icon: Grafana_logo1
+    - icon: iceberg
+    - icon: impala
+    - icon: Git-Logo-2Color
+    - icon: parquet
+    - icon: orc-1
+    
+    
+    
+
   # section4:
   #   title: Our Clients love us!
   #   # subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry

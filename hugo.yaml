@@ -176,7 +176,7 @@ params:
     title: Drop us a line or two
     subtitle: We'd love to hear from you
     buttonText: Send Message
-    action: https://formspree.io/f/xpzgwkjw
+    action: https://formspree.io/f/mpzgdyly
     method: POST
   footer:
     # Logo (from /images/logos/___)

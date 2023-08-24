@@ -73,7 +73,7 @@ params:
   # - title: Pricing
   #   url: /getstarted
   - title: Book a call
-    url: "https://calendly.com/matar86/30min"
+    url: "https://calendly.com/datumops/30min"
     button: true
   section1:
     title: Our services

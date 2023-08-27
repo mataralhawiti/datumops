@@ -81,7 +81,7 @@ params:
     tiles:
     - title: Cloud Data Platform
       icon: data-cloud
-      text: Unleash the power of the public clouds by leveraging data serverless solutions to build your modern data infrastructure
+      text: Unleash the power of the public clouds by leveraging data SaaS solutions to build your modern data infrastructure
       url: /
       buttonText: Free trial
     - title: Real-Time Data Processing
